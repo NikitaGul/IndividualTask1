@@ -1,0 +1,139 @@
+body
+{
+	background-color: silver;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+.mainDiv
+{
+	/*background-color: green;*/
+	height: 90%;
+	width: 90%;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 5px solid black;
+	border-radius: 15px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.cardDiv
+{
+	/*background-color: red;*/
+	height: 90%;
+	width: 30%;
+	/*border: 10px solid cyan;
+	border-radius: 15px;*/
+}
+
+.name
+{
+	background: radial-gradient(whitesmoke, gray);
+	height: 7%;
+	width: 70%;
+	margin: 2% auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border: 5px solid black;
+	border-radius: 15px;
+	color: black;
+	font-size: 150%; 
+	font-family: Times New Roman;
+}
+
+.counter
+{
+	background-image: url("https://i.postimg.cc/Rh5qxC1g/image.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	height: 15%;
+	width: 30%;
+	margin: 2% auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border: 5px solid black;
+	border-radius: 50%;
+	color: black;
+	font-size: 200%;
+	font-weight: 700;
+	font-family: Times New Roman;
+	cursor: pointer;
+}
+
+#computerCounter
+{
+	background-image: url("https://i.postimg.cc/L8cz8SVZ/image.png");
+}
+
+.card
+{
+	background-image: url("https://i.postimg.cc/3rvnXLkh/image.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	height: 19%;
+	width: 35%;
+	margin: 2% auto;
+	border: 5px solid black;
+	border-radius: 15px;
+}
+
+.output
+{
+	background: radial-gradient(whitesmoke, gray);
+	height: 7%;
+	width: 70%;
+	margin: 2% auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border: 5px solid black;
+	border-radius: 15px;
+	color: black;
+	font-family: Times New Roman;
+}
+
+.buttonRound
+{
+	background: radial-gradient(whitesmoke, gray);
+	height: 30%;
+	width: 60%;
+	margin: 15% auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border: 5px solid black;
+	border-radius: 50%;
+	color: black;
+	font-size: 150%;
+	font-family: Times New Roman;
+}
+
+.check
+{
+	background: radial-gradient(whitesmoke, gray);
+	height: 30%;
+	width: 70%;
+	margin: 5% auto 0%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border: 5px solid black;
+	border-radius: 15px;
+	color: black;
+	font-size: 150%;
+	font-family: Times New Roman;
+}
